@@ -1,6 +1,6 @@
 // Initialize Vanta.js 3D background
 window.addEventListener('DOMContentLoaded', () => {
-    VANTA.CELLS({
+    VANTA.WAVES({
         el: "#vanta-bg",
         mouseControls: true,
         touchControls: true,
@@ -8,10 +8,13 @@ window.addEventListener('DOMContentLoaded', () => {
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
-        color1: 0x10b981,
-        color2: 0x064e3b,
-        size: 1.50,
-        speed: 1.00
+        scaleMobile: 1.00,
+        color: 0x10b981,
+        backgroundColor: 0x060807,
+        shininess: 35.00,
+        waveHeight: 20.00,
+        waveSpeed: 0.75,
+        zoom: 0.90
     });
 });
 
