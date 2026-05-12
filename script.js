@@ -11,10 +11,10 @@ window.addEventListener('DOMContentLoaded', () => {
         scaleMobile: 1.00,
         color: 0x10b981,
         backgroundColor: 0x060807,
-        shininess: 35.00,
-        waveHeight: 20.00,
-        waveSpeed: 0.75,
-        zoom: 0.90
+        shininess: 20.00, /* Reduced shine */
+        waveHeight: 12.00, /* Lower waves */
+        waveSpeed: 0.50, /* Slower speed */
+        zoom: 0.85
     });
 });
 
